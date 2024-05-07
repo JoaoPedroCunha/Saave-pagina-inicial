@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #035A79;
+    color: #fff; 
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 50px; 
+}
+
+nav {
+    display: flex;
+    margin-right: 10px;
+    padding: 5px;
+    font-family: "Jaro", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff; 
+    margin-left: 20px;
+    list-style: none;
+    transition: .5s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #19902c; 
+}
+
+
+section {
+    padding: 20px;
+}
+
+span {
+    color: #19902c;
+}
+
+#sobre {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+#sobre h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#sobre h3 {
+    font-size: 24px;
+    color: #19902c;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#sobre p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#sobre strong {
+    color: #19902c;
+}
+
+#sobre p:last-child {
+    margin-bottom: 0;
+}
+
+#imagens, .cards {
+    padding: 20px;
+    border-radius: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(33.33% - 10px); 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 10px; 
+    background-color: #37f6aa;
+  }
+
+  .card:hover{
+    transition: .5s ease-in-out;
+  }
+  
+  .card:last-child {
+    margin-right: 0; 
+  }
+  
+  .card .card-body {
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card .card-body h3 {
+    margin-top: 0;
+  }
+  
+  .card .card-body p {
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+footer {
+    background-color: #035A79; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#servicos button {
+    background-color: #035A79;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto; 
+    display: block;
+    border-radius: 10px;
+}
+
+#servicos button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#servicos button:hover {
+    background-color: green; 
+}
+
